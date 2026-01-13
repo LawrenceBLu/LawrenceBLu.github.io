@@ -1,1 +1,0 @@
-# Lawrence's Personal Website
