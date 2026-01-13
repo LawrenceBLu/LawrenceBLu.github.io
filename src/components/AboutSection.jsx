@@ -38,50 +38,6 @@ export const AboutSection = () => {
                         <img src="/projects/headshot_square.JPG" alt="Picture of myself" className="w-[250px] md:w-[500px] h-auto rounded-full border-4 border-white"/>
                     </div>
 
-                    {/* <div className="grid grid-cols-1 gap-6">
-                        <div className="gradient-border p-6 card-hover">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <Code className="h-6 w-6 text-primary" />
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Deep Learning</h4>
-                                    <p className="text-muted-foreground">
-                                        Empowering AI to change the world.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="gradient-border p-6 card-hover">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <Briefcase className="h-6 w-6 text-primary" />
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Deep Learning</h4>
-                                    <p className="text-muted-foreground">
-                                        Empowering AI to change the world.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="gradient-border p-6 card-hover">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <Briefcase className="h-6 w-6 text-primary" />
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Experience</h4>
-                                    <p className="text-muted-foreground">
-                                        Training neural networks to make our lives easier.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> */}
                 </div>
             </div>
         </section>

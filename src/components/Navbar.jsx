@@ -118,10 +118,7 @@ const hideNav = !isAtTop && !scrollingUp;
             </div>
           </div>
       </div>
-    </nav>
-
-    {/* MOBILE OVERLAY */}
-    
+    </nav>    
   </>
 );
 

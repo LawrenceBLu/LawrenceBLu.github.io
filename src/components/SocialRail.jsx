@@ -1,4 +1,4 @@
-export default function SocialRail() {
+export const SocialRail = () => {
   const socials = [
     { label: "EMAIL.", href: "mailto:lawrencebdlu@gmail.com" },
     { label: "GITHUB.", href: "https://github.com/LawrenceBLu" },

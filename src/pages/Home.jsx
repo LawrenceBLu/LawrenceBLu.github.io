@@ -6,16 +6,15 @@ import { HeroSection } from "../components/HeroSection";
 import { Navbar } from "../components/Navbar";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { SkillsSection } from "../components/SkillsSection";
-import SocialRail from "../components/SocialRail";
-import { ThemeToggle } from "../components/ThemeToggle";
-import { StarBackground } from "@/components/StarBackground";
+import { SocialRail } from "../components/SocialRail";
+import { GradientBackground } from "@/components/GradientBackground";
 
 export const Home = () => {
     return (
         <div className="min-h-screen text-foreground overflow-x-hidden">
-            {/* <ThemeToggle /> */}
             {/* Background Effects */}
-            <StarBackground />
+            <GradientBackground />
+            {/* Social Bar */}
             <SocialRail />
             {/* Navbar */}
             <Navbar />
