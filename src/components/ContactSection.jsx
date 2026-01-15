@@ -1,5 +1,9 @@
 import { cn } from "@/lib/utils";
 import { useInView } from "@/hooks/useInView";
+import {
+  Linkedin,
+  Github,
+} from "lucide-react";
 
 export const ContactSection = () => {
   const { ref, inView } = useInView({ threshold: 0.2 });
@@ -16,8 +20,19 @@ export const ContactSection = () => {
           I'm always open to discussing new opportunities.
         </p>
         <a href="mailto:lawrencebdlu@gmail.com" className="button">Say Hello</a>
-
       </div>
+      <div className="pt-8 md:opacity-0">
+          <h4 className="font-medium mb-4"> Connect With Me</h4>
+          <div className="flex space-x-4 justify-center">
+            <a href="https://www.linkedin.com/in/lawrenceblu/" target="_blank">
+              <Linkedin />
+            </a>
+            <a href="https://github.com/LawrenceBLu" target="_blank">
+              <Github />
+            </a>
+          </div>
+      </div>
+      
     </section>
   );
 };
