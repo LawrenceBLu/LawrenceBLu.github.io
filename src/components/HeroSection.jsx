@@ -12,7 +12,7 @@ export const HeroSection = () => {
                     <p className="floating-word text-white/10">Big Data</p>
                 </div>
             </div>
-            <div className="flex place-items-center md:place-items-start">
+            <div className="flex place-items-center justify-center md:justify-start md:place-items-start">
                 {/* <img src="/projects/headshot_square.JPG" alt="Picture of myself" className="w-[250px] md:w-[500px] h-auto rounded-full border-4 border-white opacity-0 animate-fade-in-delay-3"/> */}
                 <div className="w-fit flex flex-col items-start space-y-4">
                     <span className="tracking-tight leading-tight text-xl text-semibold text-foreground/90 opacity-0 animate-fade-in-delay-1">Hi, my name is</span>
