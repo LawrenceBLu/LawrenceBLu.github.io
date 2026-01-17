@@ -5,8 +5,8 @@ import { cn } from "@/lib/utils";
 
 const experiences = [
     {
-        title: "Assistant Engineer",
-        company: "ADLINK",
+        title: "Assistant Engineer Intern",
+        company: "ADLINK Technology",
         date: "June 2024 - September 2024",
         description: [
             "Refactoring application backend to FastAPI and RESTful API structure",
