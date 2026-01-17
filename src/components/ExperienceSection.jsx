@@ -42,9 +42,9 @@ const experiences = [
         company: "Advantech",
         date: "June 2021 - September 2021",
         description: [
-            "Testing industrial products for system and atmospheric compatibility: Burn-in Testing, Temperature Reliability, I/O Operability",
+            "Testing industrial products for quality assurance and system compatibility via Burn-in Testing, Temperature Reliability, I/O Operability",
             "Managing engineering samples and test-fixture inventory using self-made python scripts, which improved workflow efficiency by ~50%",
-            "Reporting and logging errors found with golden samples prior to shipping"
+            "Assisting with documenting failure symptoms and errors found with golden samples to support engineering root-cause analysis"
         ],
         link: "https://www.advantech.com/"
     },
