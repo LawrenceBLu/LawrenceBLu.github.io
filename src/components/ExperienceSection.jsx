@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 const experiences = [
     {
         title: "Assistant Engineer Intern",
-        company: "ADLINK Technology",
+        company: "ADLINK Tech.",
         date: "June 2024 - September 2024",
         description: [
             "Refactoring application backend to FastAPI and RESTful API structure",
@@ -42,8 +42,9 @@ const experiences = [
         company: "Advantech",
         date: "June 2021 - September 2021",
         description: [
-            "Working with lab equipment for system compatibility testing: Burn-in Testing, Thermal Chamber, SW tools",
+            "Testing industrial products for system and atmospheric compatibility: Burn-in Testing, Temperature Reliability, I/O Operability",
             "Managing engineering samples and test-fixture inventory using self-made python scripts, which improved workflow efficiency by ~50%",
+            "Reporting and logging errors found with golden samples prior to shipping"
         ],
         link: "https://www.advantech.com/"
     },
