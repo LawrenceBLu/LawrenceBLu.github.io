@@ -5,45 +5,49 @@ import { cn } from "@/lib/utils";
 
 const experiences = [
     {
-        title: "Assistant Engineer Intern",
-        company: "ADLINK Tech.",
+        title: "AI Assistant Engineer Intern",
+        company: "ADLINK Technology",
+        company_tab: "ADLINK",
         date: "June 2024 - September 2024",
         description: [
-            "Refactoring application backend to FastAPI and RESTful API structure",
-            "Parsing/extracting content from PDFs via Tesseract and table manipulation modules",
-            "Leveraging LLMs to create a RAG application that optimizes device information retrieval by about 50% - 60%",
-            "Constructing a multi-agentic RAG LLM with ReAct logic for multi-modal retrieval and ML model tool usage"
+            "Migrating application backend to FastAPI and REST, improving modularity and API maintainability",
+            "Building a PDF OCR and table extraction pipeline via Tesseract and parsing modules for LLM readability",
+            "Leveraging LLMs to create a RAG application that optimized device information retrieval efficiency by about 50% - 60%",
+            "Constructing a multi-agentic ReAct RAG system for multi-modal retrieval and ML tool usage"
         ],
         link: "https://www.adlinktech.com/"
     },
     {
         title: "Augmented Reality Instructor",
         company: "Integem",
+        company_tab: "Integem",
         date: "June 2023 - August 2023",
         description: [
-            "Teaching a total of 100+ students Python programming and Artificial Intelligence model building",
-            "Guiding students in training AI models for custom projects using Google’s AIY Vision Kit and Nvidia’s Jetson Nano"
+            "Instructing 100+ K-12 students in Python programming and applied AI through custom hands-on projects",
+            "Guiding students through AI model training workflows and edge development using Google AIY Vision Kit and Nvidia Jetson Nano"
         ],
         link: "https://www.integem.com/"
     },
     {
         title: "Development Science Informatics AI/Analytics Intern",
         company: "Genentech",
+        company_tab: "Genentech",
         date: "June 2022 - September 2022",
         description: [
-            "Data mining datasets consisting of 100+ independent variables using R to determine the best fit machine learning regression model for predicting disease biomarkers",
-            "Building a documentation website to enhance the workflow efficiency and accessibility of the team’s machine learning tools by ~50%",
-            "Developing python scripts for preprocessing image data prior to deep learning model training"
+            "Mining datasets with 100+ variables in R and benchmarked regression machine learning models to predict disease biomarkers",
+            "Building an internal documentation website for machine learning tools, improving accessibility and team workflow efficiency by ~50%",
+            "Developing Python image preprocessing pipelines to prepare datasets for deep learning model training"
         ],
         link: "https://www.gene.com/"
     },
     {
         title: "Application Engineering Intern",
         company: "Advantech",
+        company_tab: "Advantech",
         date: "June 2021 - September 2021",
         description: [
             "Testing industrial products for quality assurance and system compatibility via Burn-in Testing, Temperature Reliability, I/O Operability",
-            "Managing engineering samples and test-fixture inventory using self-made python scripts, which improved workflow efficiency by ~50%",
+            "Automating engineering samples and test-fixture inventory tracking using self-developed python scripts, reducing manual effort and improving workflow efficiency by ~50%",
             "Assisting with documenting failure symptoms and errors found with golden samples to support engineering root-cause analysis"
         ],
         link: "https://www.advantech.com/"
@@ -88,7 +92,7 @@ export const ExperienceSection = () => {
                 const isActive = idx === activeIdx;
                 return (
                   <button
-                    key={exp.company}
+                    key={exp.company_tab}
                     onClick={() => setActiveIdx(idx)}
                     className={[
                       "w-full text-left font-mono text-sm h-11 px-3 rounded cursor-pointer",
@@ -98,7 +102,7 @@ export const ExperienceSection = () => {
                         : "text-slate-400 hover:text-slate-10 hover:bg-slate-800/30",
                     ].join(" ")}
                   >
-                    {exp.company}
+                    {exp.company_tab}
                   </button>
                 );
               })}
