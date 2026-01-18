@@ -16,11 +16,11 @@ export const AboutSection = () => {
                         <h3 className="text-2xl font-semibold">Aspiring AI Engineer</h3>
 
                         <p className="text-muted-foreground">
-                            Recent graduate from UCI with a major in Computer Science with a specialization in Intelligent Systems and a minor in Statistics.
+                            Recent Computer Science (specialization in Intelligent Systems) graduate from UC Irvine, with a minor in Statistics.
                         </p>
 
                         <p className="text-muted-foreground">
-                            I'm passionate about neural networks and learning how to use them to improve society.
+                            I'm passionate about applied deep learning — building neural network solutions that improve workflows and create real-world impact.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
